@@ -35,11 +35,11 @@ git subtree push --prefix=config config master
 
 ## Content
 
-This config repo contains the following 
+This config repo contains the following functionalities:
 
 ### Swiftlint 
 
-It contains the swiftlint executable so that everyone that pulls the container repos (Client, Core, IS) do not need to download swiftlint on their machine. This also applies to our CI bitrise that will be able to run swiftlint from Fastlane without any problems. 
+It contains the swiftlint executable so that everyone that pulls the container repos (Client, Core, IS) do not need to download swiftlint on their machine. This also applies to our CI bitrise that will be able to run swiftlint from Fastlane without any problems. It also has the `.swiftlint.yml` that specifies all rules to be followed by all the libraries.
 
 ### Fastlane
 
